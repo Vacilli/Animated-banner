@@ -1,0 +1,335 @@
+@charset "UTF-8";
+body,
+html {
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+}
+
+#container {
+    background: #fff;
+    height: 250px;
+    width: 300px;
+    z-index: 1;
+}
+
+.banner {
+    opacity: 1;
+    height: 248px;
+    width: 298px;
+    border: 1px solid #000;
+    background: #fff;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.positionAb {
+    position: absolute;
+}
+
+#clickTag {
+    
+    background: url(images/clickTag.png);
+    height: 250px;
+    width: 300px;
+    z-index: 80;
+    cursor: pointer;t
+    top: 0;
+    left: 0;
+
+}
+
+#loader-container {
+    display:none;	
+}
+/*////////////////////////////////////////////////*/
+#logo {
+    background-color: #a90d37;
+    width: 63px;
+    height: 0px;
+/*    transform: scaleY(0);*/
+    top: 0px;
+    left: 40px;
+    z-index: 10;
+/*    opacity: 0;*/
+    display: block;
+    text-align: center;
+    transform-origin:  left center;
+}
+
+#logo span {
+    width: 51px;
+    height: 17px;
+    top: 23px;
+    left: 6px;
+    opacity: 1;
+    display: block;
+    background: url(images/bbt_logo_300x250.svg);
+    background-repeat: no-repeat;
+}
+
+
+/*////////////////////////////////////////////////*/
+
+#legal {
+    background-color: #edf0f4;
+    cursor: pointer;
+    width: 238px;
+    height: 14px;
+    bottom: 60px;
+    right: 14px;
+    z-index: 40;
+    opacity: 0;
+    -moz-border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -khtml-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+    display: block; 
+    transform-origin: left center;
+
+}
+
+#legal span {
+    width: 186px;
+    height: 11px;
+    bottom: 4px;
+    left: 2px;
+    display: block;
+    background: url(images/legal.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+#cta {
+    background-color: #a90d37;
+    cursor: pointer;
+    width: 115px;
+    height: 0px;
+    bottom: 0px;
+    right: 22px;
+    z-index: 40;
+    -moz-border-radius: 3px 3px 0px 0px;
+    -webkit-border-radius: 3px 3px 0px 0px;
+    -khtml-border-radius: 3px 3px 0px 0px;
+    border-radius: 3px 3px 0px 0px;
+    display: block; 
+    transform-origin: left center;
+
+}
+
+#cta span {
+    width: 78px;
+    height: 10px;
+    bottom: 9px;
+    right: 18px;
+    opacity: 1;
+    display: block;
+    background: url(images/cta_label.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+/*////////////////////////////////////////////////*/
+
+#imageHolder {
+    width: 300px;
+    height: 250px;
+    top: 0px;
+    left: 0px;
+    z-index: 5;
+    opacity: 1;
+    display: block;
+    perspective: 800px;
+
+}
+
+#imageHolder #tablet {
+    width: 353px;
+    height: 247px;
+    top: -16px;
+    left: -30px;
+    opacity: 0;
+    display: block;
+    background: url(images/tablet-frontView.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#headlineImageholder {
+    width: 141px;
+    height: 62px;
+    top: 25px;
+    left: 125px;
+    opacity: 1;
+    display: block;
+/*        border: solid 1px black;*/
+    overflow: hidden;
+
+}
+
+#headlineImage {
+    width: 141px;
+    height: 62px;
+    top: -2px;
+    left: 0;
+    display: block;
+    background: url(images/mortgage-image.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#headline01, #headline02, #headline03,#headline04 {
+    overflow: hidden;
+    height: 63px;
+    width: 243px;
+    top: 124px;
+    left: 38px
+}
+#mortgage_container {
+    width: 240px;
+    height: 18px;
+    top: 98px;
+    left: 38px;
+    opacity: 1;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#mask {
+    width: 129px;
+    height: 18px;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#mortgage_text {
+    width: 91px;
+    height: 12px;
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    display: block;
+    background: url(images/text1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#apply_text {
+    width: 236px;
+    height: 18px;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    display: block;
+    background: url(images/apply_text.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*////////////////////////////////////////////////*/
+
+#f1_headline_1 {
+    width: 243px;
+    height: 32px;
+    top: 6px;
+    left: 0px;
+    opacity: 0;
+    display: block;
+    background: url(images/f1_headline_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#f1_headline_2 {
+    width: 244px;
+    height: 23px;
+    top: 36px;
+    left: 0px;
+    opacity: 0;
+    display: block;
+    background: url(images/f1_headline_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*////////////////////////////////////////////////*/
+
+#f2_headline_1 {
+    width: 236px;
+    height: 15px;
+    top: 11px;
+    left: 0px;
+    opacity: 0;
+    display: block;
+    background: url(images/f2_headline_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#f2_headline_2 {
+    width: 239px;
+    height: 24px;
+    top: 30px;
+    left: 0px;
+    opacity: 0;
+    display: block;
+    background: url(images/f2_headline_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*////////////////////////////////////////////////*/
+
+
+#f3_headline_1 {
+    width: 200px;
+    height: 15px;
+    top: 9px;
+    left: 0px;
+    opacity: 0;
+    display: block;
+    background: url(images/f3_headline_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#f3_headline_2 {
+    width: 240px;
+    height: 24px;
+    top: 30px;
+    left: 0px;
+    opacity: 0;
+    display: block;
+    background: url(images/f3_headline_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/*////////////////////////////////////////////////*/
+
+
+#f4_headline_1 {
+    width: 183px;
+    height: 24px;
+    top: 4px;
+    left: 0px;
+    opacity: 0;
+    display: block;
+    background: url(images/f4_headline_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#f4_headline_2 {
+    width: 241px;
+    height: 26px;
+    top: 32px;
+    left: 3px;
+    opacity: 0;
+    display: block;
+    background: url(images/f4_headline_2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
